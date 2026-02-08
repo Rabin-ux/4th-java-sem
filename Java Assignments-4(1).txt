@@ -1,0 +1,1 @@
+Q.Why is there no concept of pointer in Java?Ans:-Java does not support pointers to make programs secure, simple, and reliable.Reasons:1)Pointers can access any memory location, causing security issues,2)They may lead to memory leaks and dangling pointers,3)Java uses automatic memory management.
