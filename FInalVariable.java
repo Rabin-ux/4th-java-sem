@@ -1,6 +1,5 @@
 class FinalVariableExample {
     final int MAX = 100;
-        // Uncommenting the following line will cause a compilation error
 
 void display(){
     System.out.println("Max values: " + MAX);
