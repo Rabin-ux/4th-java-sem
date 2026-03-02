@@ -40,7 +40,7 @@ class PerishableItem extends Item {
 
     @Override
     public double calculateTax() {
-        return basePrice * 0.05;
+        return basePrice * 1.05;
     }
 
     @Override
