@@ -40,7 +40,7 @@ class PerishableItem extends Item {
 
     @Override
     public double calculateTax() {
-        return basePrice * 1.05;
+        return basePrice * 0.05;
     }
 
     @Override
@@ -79,8 +79,8 @@ public class SmartWarehouse {
 
     public static void main(String[] args) {
 
-        inventory.put("P001", new PerishableItem("SP23R1", "Lays", 3.50, "2027/12/31"));
-        inventory.put("E501", new ElectronicItem("Es34n1", "Mobile", 120.00, 36 ));
+        inventory.put("P001", new PerishableItem("P001", "Milk", 2.50, "2026-03-10"));
+        inventory.put("E501", new ElectronicItem("E501", "Headphones", 120.00, 24));
 
         System.out.println("Inventory List:");
         for (Item item : inventory.values()) {
